@@ -1,3 +1,4 @@
 neo4j-driver
 impacket
 ldap3
+dnspython>=2.6.0rc1 # not directly required, pinned by Snyk to avoid a vulnerability
