@@ -1,3 +1,7 @@
 neo4j-driver
 impacket
 ldap3
+cryptography>=42.0.8 # not directly required, pinned by Snyk to avoid a vulnerability
+flask>=2.2.5 # not directly required, pinned by Snyk to avoid a vulnerability
+jinja2>=3.1.6 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=2.2.3 # not directly required, pinned by Snyk to avoid a vulnerability
